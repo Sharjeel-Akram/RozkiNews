@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/RozkiNews/static/css/main.dc4d6ff2.css",
-    "main.js": "/RozkiNews/static/js/main.eef5b367.js",
+    "main.js": "/RozkiNews/static/js/main.e55d9665.js",
     "static/js/787.6643f1c0.chunk.js": "/RozkiNews/static/js/787.6643f1c0.chunk.js",
     "static/media/loading.gif": "/RozkiNews/static/media/loading.b0820b291c154766ccfd.gif",
     "index.html": "/RozkiNews/index.html",
     "main.dc4d6ff2.css.map": "/RozkiNews/static/css/main.dc4d6ff2.css.map",
-    "main.eef5b367.js.map": "/RozkiNews/static/js/main.eef5b367.js.map",
+    "main.e55d9665.js.map": "/RozkiNews/static/js/main.e55d9665.js.map",
     "787.6643f1c0.chunk.js.map": "/RozkiNews/static/js/787.6643f1c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.eef5b367.js"
+    "static/js/main.e55d9665.js"
   ]
 }
