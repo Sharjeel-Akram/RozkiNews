@@ -13,8 +13,11 @@ export default class App extends Component {
     return (
       <div>
         <Router>
+        {/* <Router basename="/RozkiNews"> */}
           <Navbar/>
+          
           <Routes>
+            {/* <Route exact path="/RozkiNews" element={<News key="general" pageSize={6} country='us' category='general' />} /> */}
             <Route exact path="/" element={<News key="general" pageSize={6} country='us' category='general' />} />
             <Route exact path="/general" element={<News key="general" pageSize={6} country='us' category='general' />} />
             <Route exact path="/business" element={<News key="business" pageSize={6} country='us' category='business' />} />
