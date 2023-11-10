@@ -12,13 +12,13 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Router>
-        {/* <Router basename="/RozkiNews"> */}
+        {/* <Router> */}
+        <Router basename="/RozkiNews">
           <Navbar/>
           
           <Routes>
-            {/* <Route exact path="/RozkiNews" element={<News key="general" pageSize={6} country='us' category='general' />} /> */}
-            <Route exact path="/" element={<News key="general" pageSize={6} country='us' category='general' />} />
+            <Route exact path="/RozkiNews" element={<News key="general" pageSize={6} country='us' category='general' />} />
+            {/* <Route exact path="/" element={<News key="general" pageSize={6} country='us' category='general' />} /> */}
             <Route exact path="/general" element={<News key="general" pageSize={6} country='us' category='general' />} />
             <Route exact path="/business" element={<News key="business" pageSize={6} country='us' category='business' />} />
             <Route exact path="/entertainment" element={<News key="entertainment" pageSize={6} country='us' category='entertainment' />} />
