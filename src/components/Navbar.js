@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from "react-router-dom";
 
-  
-export class Navbar extends Component {
 
-  render() {
+// export class Navbar extends Component {
+const Navbar = () => {
+    //   render() {
     return (
-      <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div>
+            <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">RozkiNews</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,30 +21,29 @@ export class Navbar extends Component {
                             {/* <li className="nav-item"> <Link className="nav-link" to="/about">About</Link>
                             </li> */}
                             <li className="nav-item">
-                                <Link className="nav-link" to="/business">Business</Link>                                
+                                <Link className="nav-link" to="/business">Business</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/entertainment">Entertainment</Link>                               
+                                <Link className="nav-link" to="/entertainment">Entertainment</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/health">Health</Link>                              
+                                <Link className="nav-link" to="/health">Health</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/science">Science</Link>                                
+                                <Link className="nav-link" to="/science">Science</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/sports">Sports</Link>                               
+                                <Link className="nav-link" to="/sports">Sports</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/technology">Technology</Link>                               
+                                <Link className="nav-link" to="/technology">Technology</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-      </div>
+        </div>
     )
-  }
 }
 
 export default Navbar
