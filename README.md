@@ -42,6 +42,3 @@ Built With
 - Create React App - An officially supported way to create single-page React applications
 - Axios - For making HTTP requests
 - [Your News API Service] - API service used for fetching news
-
-##License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
